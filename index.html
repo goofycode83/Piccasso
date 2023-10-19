@@ -1,29 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Piccasso</title>
-</head>
-<body id="container">
-    <nav class="nav-container">
-        <li><a href="form-submission.html">Form</a></li>
-    </nav>
-    <section class="shapes-container">
-
-        <div class="circles"></div>
-        <div class="circles"></div>
-        <div class="circles"></div>
-        
-        <div class="squares"></div>
-        <div class="squares"></div>
-        <div class="squares"></div>
-
-        <div class="triangles"></div>
-        <div class="triangles"></div>
-        <div class="triangles"></div>
-
+  </head>
+  <body id="container">
+    <section class="form-cointainer">
+      <form action="form-submission.html">
+        <label for="fname">First Name:</label>
+          <br>
+        <input type="text" id="fname" name="fname">
+          <br>
+        <label for="lname">Last Name:</label>
+          <br>
+        <input type="text" id="lname" name="lname">
+          <br>
+        <label for="email">Email:</label>
+          <br>
+        <input type="email" id="email" name="email">
+          <br><br>
+        <input type="submit" value="Submit">
+      </form>
     </section>
-</body>
+      <br><br>
+    <section class="shapes-container">
+      <div class="circle-container">
+        <div class="circle oneC"></div>
+        <div class="circle twoC"></div>
+        <div class="circle threeC"></div>
+      </div>
+        <div class="square-container">
+        <div class="square oneS"></div>
+        <div class="square twoS"></div>
+        <div class="square threeS"></div>
+      </div>
+      <div class="triangle-container">
+        <div class="triangle oneT"></div>
+        <div class="triangle twoT"></div>
+        <div class="triangle threeT"></div>
+      </div>
+    </section>
+  </body>
 </html>
